@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#N:hover {
+    background-color: pink;
+    transform: scale(1.05);
+}
+#A:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+#F:hover {
+    background-color: skyblue;
+    transform: scale(1.05);
+}
+
+
+
+button:active {
+    transform: scale(0.95);
+}
